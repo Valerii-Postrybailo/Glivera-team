@@ -1,0 +1,170 @@
+.aside{
+  padding-top: 30px;
+  padding-bottom: 35px;
+  @media screen and (min-width:1200px){
+    padding-bottom: 73px;
+  }
+}
+
+.aside-desctope-container{
+  @media screen and (min-width:1200px){
+    width:340px;
+  }
+}
+
+.search-form-desktop{
+  display: none; 
+  margin-bottom: 43px;
+
+  @media screen and (min-width:1200px){
+    display: block;
+  }
+}
+
+.content-list__item{
+  margin-bottom: 70px;
+  border-bottom: 1px solid #D7D8D9;
+
+  @media screen and (min-width:1200px){
+    margin-bottom: 43px;
+  }
+}
+
+.content-list__title{
+  position: relative;
+
+  margin-bottom: 35px;
+  text-align: center;
+
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.4;
+  
+  color: var(--main-text-color);
+
+  &--bell{
+    &::before{
+      content:" ";
+      background-image: url(../img/pseudo-icons/announcements.svg);
+      position: absolute;
+      
+      width: 60px;
+      height: 60px;
+      
+      top: -10px;
+      left: -7px;
+    }
+  }
+
+  &--wi-fi{
+    &::before{
+      content: "";
+      background-image: url(../img/pseudo-icons/wi-fi.svg);
+      position: absolute;
+      
+      width: 43.2px;
+      height:41px;
+      
+      top: 0px;
+      left: 5px;
+    }
+  }
+}
+
+.announcements-list{
+  padding-left: 12px;
+  padding-bottom: 30px;
+
+  &_item:not(:last-child){
+    margin-bottom: 16px;
+  }
+
+  &__post-link{
+    position: relative;
+    font-size: 14px;
+    line-height: 1.6;
+    color: var(--news-author);
+
+    &::before {
+      content: '•';
+      position: absolute;
+
+      color: var(--secondary-text-color);
+      
+      top: 0;
+      left: -10px;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  
+}
+
+.popular-posts-list{
+  padding-left: 12px;
+  margin-bottom: 30px;
+
+  &__item:not(:last-child) {
+    margin-bottom: 16px;
+  }
+
+  &__post-link{
+    position: relative;
+
+    font-size: 14px;
+    line-height: 22px;
+    color: #323642;
+  
+    &::before {
+      content: '•';
+      position: absolute;
+      color: var(--secondary-text-color);
+
+      top: 0;
+      left: -10px;
+    }
+
+    &:hover,
+    &:focus {
+      text-decoration: underline;
+    }
+  }
+
+  
+}
+
+.big-broter-card{
+  margin-bottom: 60px;
+
+  @media screen and (min-width:1200px){
+    margin-bottom: 51px;
+  }
+
+  &__title{
+  margin-bottom: 15px;
+
+  font-weight: 300;
+  font-size: 24px;
+  line-height: 1.4;
+  
+  color: var(--main-text-color);
+}
+  &__link {
+    display: flex;
+  }
+}
+
+.tag-card{
+  &__title {
+    margin-bottom: 15px;
+  }
+
+  &__link {
+    display: flex;
+  }
+}
+

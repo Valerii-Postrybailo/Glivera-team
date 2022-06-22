@@ -1,0 +1,27 @@
+body{
+font-family: 'Roboto','Inter', sans-serif;
+}
+
+.container {
+  margin-left: auto;
+  margin-right: auto;
+  width: 100%;
+
+@media screen and (min-width: 375px) {
+    width: 335px;
+  }
+
+  @media screen and (min-width:1200px) {
+    width: 1200px;
+  }
+}
+
+.second-main__container{
+  width: 315px;
+}
+
+.card-flex {
+  @media screen and(min-width:1200px) {
+    display: flex;
+  }
+}

@@ -1,0 +1,80 @@
+.tags{
+  padding: 21px 33px 21px 32px;
+  margin-top: 30px; 
+
+  display: flex;
+  align-content: center;
+
+  background: #F7F7F7;
+  border-radius: 4px;
+  @media screen and (max-width:1200px){
+    display: none;
+  }
+}
+
+.tags__title{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+  color: #323642;
+}
+
+.tags-nav{
+  margin-left: 43px;
+}
+
+.tags-nav__list{
+  display: flex;
+}
+
+.tags-nav__item:not(:last-child){
+  margin-right: 37px;
+}
+
+.tags-nav__link{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  
+  letter-spacing: 0.8px;
+  text-transform: uppercase;
+  
+  color: #4CB649;
+}
+
+.team-and-contact-list{
+  display: flex;
+  margin-left: auto;
+}
+
+.team-and-contact-list__item:not(:last-child){
+  margin-right: 38px;
+}
+
+.team-and-contact-list__link{
+  font-weight: 500;
+  font-size: 14px;
+  line-height: 18px;
+  
+  letter-spacing: 1px;
+  text-transform: uppercase;
+  
+  color: #323642;
+}
+
+.tags-nav__triangle {
+  position: absolute;
+  right: -18px;
+  top: 5px;
+  width: 0;
+  height: 0;
+  border-top: 5px solid #323642;
+  ;
+  border-right: 5px solid transparent;
+  border-left: 5px solid transparent;
+
+}
