@@ -32,11 +32,12 @@
 
   font-weight: 300;
   font-size: 18px;
-  line-height: 28px;
+  line-height: 1.5;
 
-  background: #FFFFFF;
   border: 1px solid #D7D8D9;
   border-radius: 4px;
+
+  background: #FFFFFF;
 
   &[type="text"]::-webkit-input-placeholder {
     color: #22252E;

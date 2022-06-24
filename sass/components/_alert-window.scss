@@ -1,15 +1,11 @@
 .alert-window{
   padding: 10px 10px 13px 20px;
-  // display: grid;
-  // justify-content: center;
-  // grid-template-columns: 169px 15px 133px 9px 24px;
+  background-color: #22252E;
 
   @media screen and(min-width:1200px){
-    padding: 8px 6px 8px 6px;
     display: flex;
+    padding: 8px 6px 8px 6px;
   }
-  
-  background-color: #22252E;
 }
 
 .alert-window__list{
@@ -19,9 +15,9 @@
   grid-template-rows: repeat(2, [row] 1fr);
 
   @media screen and(min-width:1200px) {
-  margin: auto;
   display: flex;
   align-items: center;
+  margin: auto;
   }
 }
 
@@ -36,11 +32,10 @@
 }
 
 .grid-4{
-  display: block;
-  margin-right: 9px;
-
   justify-self: end;
   grid-column: 3 / 4;
+
+  margin-right: 9px;
 
   @media  screen and (min-width:1200px) {
     display: none;
@@ -49,7 +44,6 @@
 
 .grid-5{
   grid-column: 5 / 6;
-  
 }
 
 .alert-window__item{
@@ -57,7 +51,7 @@
   align-items: center;
 
   font-size: 12px;
-  line-height: 16px;
+  line-height: 1.3;
 
   @media screen and (min-width:1200px){
     &:not(:last-child) {
@@ -71,7 +65,7 @@
   }
 
   &_grey{
-    color: #889099;
+    color: var(--third-text-color);
   } 
 
   &_white{
@@ -87,10 +81,12 @@
   display: flex;
   padding: 0;
   border: none;
+  
   background-color: transparent;
 
   &_mobile-hidden{
     display: none;
+    
     @media screen and (min-width:1200px){
       display: block;
     }
