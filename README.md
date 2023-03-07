@@ -1,4 +1,4 @@
-# Glivera-team-test
+# Glivera-team
 
 Technologies: HTML-SASS-SCSS-BEM-JS-FIGMA
 
