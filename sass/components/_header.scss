@@ -59,6 +59,10 @@
   border: 1px solid #4CB649;
   border-radius: 30px;
   background-color: white;
+  transition: 250ms var(--animation-timer);
+
+  cursor:pointer;
+
   &:hover,
   &:focus {
       box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
@@ -85,6 +89,9 @@
   border: none;
   border-radius: 30px;
   background: linear-gradient(0deg, #4CB649 0%, #5DDF5A 100%);
+  transition: 250ms var(--animation-timer);
+
+  cursor:pointer;
 
   &:hover,
   &:focus{

@@ -176,6 +176,9 @@
   border: 1px solid var(--secondary-text-color);
   border-radius: 30px;
 
+  transition: 250ms var(--animation-timer);
+  cursor: pointer;
+
   &:focus,
   &:hover{
     color: #FFFFFF;

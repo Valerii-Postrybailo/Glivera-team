@@ -55,6 +55,8 @@
 
 .news-list__item{
   border-bottom: 1px solid #EBECED;
+  transition: 250ms var(--animation-timer);
+
 
   &:not(:last-child){
     margin-bottom: 20px;
@@ -171,12 +173,16 @@
   border: 1px solid #4CB649;
   border-radius: 30px;
 
+  cursor: pointer;
+  transition: 250ms var(--animation-timer);
+
+
   &:hover,
   &:focus,
   &:active {
     color: white;
     background: linear-gradient(0deg, #4CB649 0%, #5DDF5A 100%);
-    box-shadow: 0px 4px 4px rgb(0 0 0 / 15%);
+    box-shadow: 0px 4px 4px rgba(0, 0, 0, 0.15);
   }
 
   @media screen and (min-width: 1200px){

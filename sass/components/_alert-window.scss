@@ -77,12 +77,21 @@
   margin-right: 5px;
 }
 
+.alert-window__link{
+  transition: 250ms var(--animation-timer);
+
+  &:hover{
+    color: #757575;
+  }
+}
+
 .close-btn{
   display: flex;
   padding: 0;
   border: none;
   
   background-color: transparent;
+  cursor: pointer;
 
   &_mobile-hidden{
     display: none;
