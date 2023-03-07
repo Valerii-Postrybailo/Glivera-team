@@ -1,3 +1,7 @@
 # Glivera-team-test
 
-break points- 1200px, 375px
+One page
+
+Three break points: 320px, 768px, 1200px
+
+Technologies: HTML-SASS-SCSS-BEM-JS-FIGMA
